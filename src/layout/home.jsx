@@ -1,6 +1,6 @@
-import logo from "./logo.svg";
+import logo from "../assets/logo.svg"
 
-function ReactAnimate() {
+export default function Home() {
     return (
         <div className="App">
             <header className="App-header">
@@ -20,5 +20,3 @@ function ReactAnimate() {
         </div>
     );
 }
-
-export default ReactAnimate;
